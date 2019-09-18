@@ -13,5 +13,5 @@ let server = http.createServer(function(req,res){
 	}
 });
 server.listen(3000,()=>{
-	console.log('链接成功30000')
+	console.log('链接成功3000')
 })
