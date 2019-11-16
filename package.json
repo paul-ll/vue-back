@@ -4,8 +4,8 @@
   "description": "防知乎 RESTful API",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node app.js",
-    "dev": "nodemon app.js"
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "nodemon app"
   },
   "author": "lewis617",
   "license": "ISC",
