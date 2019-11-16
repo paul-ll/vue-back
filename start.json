@@ -1,6 +1,6 @@
 {
   "name": "",
-  "script": "nodemon ./app/app.js",
+  "script": "nodemon ./app.js",
   "instances": 1,
   "watch": [
     "bin",

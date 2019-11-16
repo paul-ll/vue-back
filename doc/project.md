@@ -113,7 +113,7 @@ const Router = require('koa-router')
 const requireDirectory = require('require-directory')
 
 // 绝对路径
-const apiDirectory = `${process.cwd()}/app/app/api`
+const apiDirectory = `${process.cwd()}/app/api`
 requireDirectory(module, apiDirectory, {
     visit: whenLoadModule
 })
