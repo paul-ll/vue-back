@@ -27,6 +27,7 @@ class Auth {
             }
 
             try {
+                
                 var decode = jwt.verify(tokenToken.name, global.config.security.secretKey);
 
             } catch (error) {
